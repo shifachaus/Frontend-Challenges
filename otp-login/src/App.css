@@ -1,0 +1,92 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.heading {
+  font-weight: 300;
+  font-size: 28px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.text {
+  font-weight: 300;
+  font-size: 15px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.number {
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.otpInput {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  text-align: center;
+  font-size: 1rem;
+  background: transparent;
+  border: 1px solid #3e3e3e;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+}
+
+.form__container {
+  max-width: 300px;
+  margin: 40px auto;
+  padding: 10px 20px;
+  width: 90%;
+  background: #080808;
+  padding: 2em 1.8em;
+  border: 1px solid #1b1b1b;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+}
+
+form {
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.input__number {
+  background: transparent;
+
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 0.7em 0.6em;
+  width: 276px;
+
+  color: white;
+  border: 1px solid #3e3e3e;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+}
+
+button {
+  padding: 0.7em 0.6em;
+  color: #fff;
+  background: transparent;
+  font-size: 1rem;
+  text-align: center;
+  font-style: normal;
+  width: 100%;
+  border: 1px solid #477053;
+
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 480px) {
+  form {
+    max-width: 480px;
+  }
+}
