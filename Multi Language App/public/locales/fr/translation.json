@@ -1,0 +1,7 @@
+{
+  "greeting": "Bonjour, bienvenue!",
+  "description": {
+    "intro": "<1>{{word}}</1> un monde de possibilités avec notre plateforme.",
+    "details": "Découvrez des fonctionnalités et des avantages qui améliorent votre expérience."
+  }
+}
